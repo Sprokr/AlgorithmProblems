@@ -1,4 +1,4 @@
-# https://www.geeksforgeeks.org/binary-search/
+# https://www.geeksforgeeks.org/interpolation-search/
 # Time complexity Best case - O(loglog n), Worst Case - O(n)
 
 def interpolationSearchIterative(input, elemToFind):
