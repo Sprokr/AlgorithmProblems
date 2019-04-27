@@ -11,7 +11,11 @@ def linearSearch(input, elemToFind):
 # Driver Code
 input = map(int, raw_input().split(" "))
 elem = int(raw_input())
-print linearSearch(input, elem)
+res = linearSearch(input, elem)
+if res == -1:
+    print "Element is not present in the array"
+else:
+    print "Element is present at index - ", res
 
 
 
