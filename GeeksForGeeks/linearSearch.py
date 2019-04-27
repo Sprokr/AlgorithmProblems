@@ -1,5 +1,5 @@
 # https://www.geeksforgeeks.org/linear-search/
-
+# complexity O(n)
 
 def linearSearch(input, elemToFind):
     for i in range(0,len(input)):
@@ -16,6 +16,8 @@ if res == -1:
     print "Element is not present in the array"
 else:
     print "Element is present at index - ", res
+
+
 
 
 
